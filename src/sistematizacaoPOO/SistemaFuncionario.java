@@ -26,7 +26,7 @@ public class SistemaFuncionario {
     public static void main(String[] args) {
         SistemaFuncionario sistema = new SistemaFuncionario();
 
-        sistema.adicionarFuncionario(new Funcionario(1, "Joanna Maria", "123.456.789-00", "99999-9999", "Feminino", "joanna.maria@olaola.com", "01/01/1989", "Alergia a amendoim", "Nenhum"));
+        sistema.adicionarFuncionario(new Funcionario(1, "Joanna Maria", "123.456.789-01", "99999-9999", "Feminino", "joanna.maria@olaola.com", "01/01/1989", "Alergia a amendoim", "Nenhum"));
         sistema.adicionarFuncionario(new Funcionario(2, "Alex João", "987.654.321-01", "98888-8888", "Masculino", "alex.joao@olaola.com", "01/01/1991", "Alergia a camarão", "Asma"));
 
         Scanner scanner = new Scanner(System.in);
